@@ -2,6 +2,7 @@
 sequenceDiagram
  create actor Attacker 
  Attacker->>BotNet: BotNet Attack!
+ destroy Attacker
  BotNet->>Attacker: Ok
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet

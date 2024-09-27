@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
- actor Attacker 
+ create actor Attacker 
  Attacker->>BotNet: BotNet Attack!
  BotNet->>Attacker: Ok
  BotNet->>Webserver: Spoofed SYN Packet

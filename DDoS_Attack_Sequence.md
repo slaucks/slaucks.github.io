@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
- create actor Attacker 
+ actor Attacker 
  Attacker->>BotNet: BotNet Attack!
  destroy Attacker
  BotNet->>Attacker: Ok

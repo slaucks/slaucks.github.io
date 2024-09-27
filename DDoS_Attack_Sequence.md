@@ -1,7 +1,7 @@
 ```mermaid
 sequenceDiagram
- participant Attacker->botnet Attack!
- participant BotNet
+ Attacker->>BotNet: BotNet Attack!
+ BotNet->>Attacker: Ok
  participant WebServer
  participant Firewall
 

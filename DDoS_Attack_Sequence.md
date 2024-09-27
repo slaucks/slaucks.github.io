@@ -8,6 +8,7 @@ sequenceDiagram
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet
- participant Firewall
+ Webserver->>Firewall: Help, I am being attacked by a DDoS attack
+participant Firewall
 
 ```

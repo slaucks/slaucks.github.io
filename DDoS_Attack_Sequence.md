@@ -2,8 +2,12 @@
 sequenceDiagram
  Attacker->>BotNet: BotNet Attack!
  BotNet->>Attacker: Ok
- participant WebServer
- participant Firewall
-
+ BotNet->>Webserver: Spoofed SYN Packet
+ BotNet->>Webserver: Spoofed SYN Packet
+ BotNet->>Webserver: Spoofed SYN Packet
+ BotNet->>Webserver: Spoofed SYN Packet
+ BotNet->>Webserver: Spoofed SYN Packet
+ WebServer
+ Firewall
 
 ```

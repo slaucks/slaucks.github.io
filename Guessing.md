@@ -5,7 +5,7 @@ id2 --> High --> id3([Play Again])
 id2 --> Correct! --> id3([Play Again])
 id2 --> Low --> id3([Play Again])
 
-Subgraph subgraph 1
+Subgraph
 
 Step 1: User will guess a number 1 through 10
 Step 2: User will select the guess button

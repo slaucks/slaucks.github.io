@@ -7,7 +7,6 @@ sequenceDiagram
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet
- participant WebServer
  participant Firewall
 
 ```

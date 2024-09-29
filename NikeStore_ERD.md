@@ -9,7 +9,7 @@ erDiagram
 }
     SALE ||--|{ ORDER : contains
     SALE { 
-       int OrderNumber
+       OrderNumber
        string customernumber
     }
     CUSTOMER }|..|{ LINE-ITEM : contains

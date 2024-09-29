@@ -3,12 +3,13 @@ erDiagram
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER {
            String Name
-           String Customernumber
+           String Ordernumber
+           string deliveryaddress
 }
     SALE ||--|{ LINE-ITEM : contains
     SALE { 
        int OrderNumber
-       string deliveryaddress
+       string customer number
     }
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
     LINE-ITEM {

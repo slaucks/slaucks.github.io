@@ -1,11 +1,11 @@
 ```mermaid
 
-statediagram-v2
-  [*] --> Still
+stateDiagram-v2
+    [*] --> Still
     Still --> [*]
-%% this is a comment
+
     Still --> Moving
-    Moving --> Still %% another comment
+    Moving --> Still
     Moving --> Crash
     Crash --> [*]
 

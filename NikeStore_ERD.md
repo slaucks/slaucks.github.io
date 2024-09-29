@@ -9,8 +9,9 @@ erDiagram
 }
     SALE ||--|{ ORDER : contains
     SALE { 
-       OrderNumber
-       customernumber
+       1 OrderNumber
+       2 customernumber
+       3 itemnumber
     }
     CUSTOMER }|..|{ LINE-ITEM : contains
     LINE-ITEM {

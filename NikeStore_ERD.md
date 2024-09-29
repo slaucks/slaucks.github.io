@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     CAR ||--o{ NAMED-DRIVER : allows
     CAR {
@@ -19,3 +20,5 @@ erDiagram
         string driverLicence PK, FK
     }
     MANUFACTURER only one to zero or more CAR : makes
+
+```

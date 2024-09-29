@@ -8,5 +8,5 @@ stateDiagram-v2
     Up --> Away
     Away --> Fly
     Further --> [*]
-    Away --> [*]
+    Fly --> [*]
 ```

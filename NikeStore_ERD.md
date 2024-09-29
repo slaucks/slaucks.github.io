@@ -1,13 +1,13 @@
 ```mermaid
 erDiagram
- AirForce Ones { 
+  PRODUCT {
  }
- Jimmy { 
+ CUSTOMER {
 
  }
- $105 { 
+ SALE {
  }
- 4 {
+ INVENTORY {
  }
 
 ```

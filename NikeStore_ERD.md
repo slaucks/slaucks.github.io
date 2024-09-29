@@ -1,32 +1,13 @@
 ```mermaid
 erDiagram
- PRODUCT { Airforce One
+ AirForce Ones { 
  }
- CUSTOMER { Jimmy
+ Jimmy { 
 
  }
- SALE { $105.21
+ $105 { 
  }
- INVENTORY { 4
- }
-
- PRODUCT { Court Vision Low
- }
- CUSTOMER { Deshaun
-
- }
- SALE { $80
- }
- INVENTORY { 2
+ 4 {
  }
 
- PRODUCT { Air Max Alpha
- }
- CUSTOMER { Stacy
-
- }
- SALE { $95
- }
- INVENTORY { 3
- }
 ```

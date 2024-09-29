@@ -2,7 +2,7 @@
 
 stateDiagram-v2
     s1 : Becomes solid
-    s2: Turens to steam
+    s2: Turns to steam
     
     Water --> Freezes
     Water --> Boils

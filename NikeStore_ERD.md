@@ -11,7 +11,7 @@ erDiagram
        string OrderNumber
        string customernumber
        string itemnumber
-
+}
     SALE ||--|{ ORDER : contains
     SALE { 
        string OrderNumber

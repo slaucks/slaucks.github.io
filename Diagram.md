@@ -1,11 +1,14 @@
 ```mermaid
 
 stateDiagram-v2
+    s1 : Becomes solid
+    s2: Turens to steam
+    
     Water --> Freezes
     Water --> Boils
 
-    Freezes --> Becomes solid
-    Beocmes solid --> Grows
-    Boils --> Turns to steam
-    Turns to steam --> Evaporates 
+    Freezes --> s1
+    s1 --> Grows
+    Boils --> s2
+    s2 --> Evaporates 
 ```

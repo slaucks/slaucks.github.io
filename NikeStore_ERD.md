@@ -1,6 +1,6 @@
 ```mermaid
 erDiagram
-   CUSTOMER ||-->PRODUCT
+   CUSTOMER ||--o{PRODUCT
    CUSTOMER {
        String First Jimmy
        String Last Smith

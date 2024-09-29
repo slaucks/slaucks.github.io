@@ -1,12 +1,11 @@
 ```mermaid
 
 stateDiagram-v2
-    If --> Up
-    Up --> Down
+    Water --> Freezes
+    Water --> Boils
 
-    Down --> Further
-    Up --> Away
-    Away --> Fly
-    Further --> [*]
-    Fly --> [*]
+    Freezes --> Becomes solid
+    Beocmes solid --> Grows
+    Boils --> Turns to steam
+    Turns to steam --> Evaporates 
 ```

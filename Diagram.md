@@ -1,5 +1,6 @@
 ```mermaid
- statediagram-v2
+
+statediagram-v2
   [*] --> Still
     Still --> [*]
 %% this is a comment

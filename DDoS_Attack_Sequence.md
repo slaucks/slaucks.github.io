@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
- actor Attacker 
+ participant Attacker 
  Attacker->>BotNet: BotNet attack the web server
  BotNet->>Attacker: Ok
  destroy Attacker

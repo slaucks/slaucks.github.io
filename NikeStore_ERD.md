@@ -6,12 +6,12 @@ erDiagram
            String Ordernumber
            string deliveryaddress
 }
-    SALE ||--|{ LINE-ITEM : contains
+    SALE ||--|{ ORDER : contains
     SALE { 
        int OrderNumber
        string customernumber
     }
-    CUSTOMER }|..|{ LINE-ITEM : uses
+    CUSTOMER }|..|{ LINE-ITEM : contains
     LINE-ITEM {
           string productcode
           int quantity

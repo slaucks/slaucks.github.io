@@ -1,7 +1,7 @@
 ```mermaid
 
 stateDiagram-v2
-    [If] --> Up
+    If --> Up
     Up --> Down
 
     Down --> Further

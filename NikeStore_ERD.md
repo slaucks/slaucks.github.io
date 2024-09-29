@@ -19,7 +19,7 @@ erDiagram
        string itemnumber
        string saleprice
     }
-    INVENTORY }||--|{ LINE-ITEM : contains
+    INVENTORY }|--|{ LINE-ITEM : contains
     LINE-ITEM {
           string productcode
           int quantity

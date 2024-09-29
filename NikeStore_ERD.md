@@ -11,7 +11,7 @@ erDiagram
        int OrderNumber
        string customernumber
     }
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+    CUSTOMER }|..|{ LINE-ITEM : uses
     LINE-ITEM {
           string productcode
           int quantity

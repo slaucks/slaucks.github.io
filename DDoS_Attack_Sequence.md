@@ -3,7 +3,7 @@ sequenceDiagram
  actor Attacker 
  Attacker->>BotNet: BotNet attack the web server
  BotNet->>Attacker: Ok
-destroy Attacker
+ destroy Attacker
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet

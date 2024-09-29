@@ -1,6 +1,6 @@
 ```mermaid
 erDiagram
-  PRODUCT {
+  PRODUCT { Air force 1
  }
  CUSTOMER {
 

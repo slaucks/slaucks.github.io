@@ -9,12 +9,12 @@ erDiagram
     SALE { 
        int OrderNumber
        string deliveryaddress
-}
+    }
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
     LINE-ITEM {
           string productcode
           int quantity
           float priceperunit
-}
+    }
 
 ```

@@ -3,6 +3,7 @@ erDiagram
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER {
            String Name
+           Item Itemnumber
            String Ordernumber
            string deliveryaddress
 }

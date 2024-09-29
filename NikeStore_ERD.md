@@ -17,6 +17,5 @@ erDiagram
           int quantity
           float priceperunit
     }
-CUSTOMER only one to zero or more ORDER : makes
 
 ```

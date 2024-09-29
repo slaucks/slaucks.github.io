@@ -12,14 +12,14 @@ erDiagram
        string customernumber
        string itemnumber
 }
-    SALE ||--o|{ ORDER : contains
+    SALE ||--o{ ORDER : contains
     SALE { 
        string OrderNumber
        string customernumber
        string itemnumber
        string saleprice
     }
-    INVENTORY }|--o|{ LINE-ITEM : contains
+    INVENTORY }||--o{ LINE-ITEM : contains
     LINE-ITEM {
           string productcode
           int quantity

@@ -1,12 +1,12 @@
 ```mermaid
 
 stateDiagram-v2
-    [*] --> Still
-    Still --> [*]
+    [If] --> Up
+    Up --> Down
 
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-
+    Down --> Further
+    Up --> Away
+    Away --> Fly
+    Further --> [*]
+    Away --> [*]
 ```

@@ -10,7 +10,7 @@ erDiagram
     SALE ||--|{ ORDER : contains
     SALE { 
        OrderNumber
-       string customernumber
+       customernumber
     }
     CUSTOMER }|..|{ LINE-ITEM : contains
     LINE-ITEM {

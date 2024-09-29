@@ -4,7 +4,7 @@ stateDiagram-v2
     s1 : Becomes solid
     s2: Turns to steam
     s3: Becomes rain
-
+    s4: Water
     Water --> Freezes
     Water --> Boils
 
@@ -13,7 +13,7 @@ stateDiagram-v2
     Boils --> s2
     s2 --> Evaporates 
     Evaporates --> s3
-    s3 --> Water
+    s3 --> s4
     Grows --> Thaws
-    Thaws --> Water
+    Thaws --> s4
 ```

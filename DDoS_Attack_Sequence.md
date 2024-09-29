@@ -3,7 +3,6 @@ sequenceDiagram
  participant Attacker 
  Attacker->>BotNet: BotNet attack the web server
  BotNet->>Attacker: Ok
- destroy Attacker
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet
  BotNet->>Webserver: Spoofed SYN Packet

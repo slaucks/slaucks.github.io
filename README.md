@@ -14,5 +14,5 @@ I then selected my local folder for this class as the save location. Then I slec
 ## My Interests
  	I like to play softball and work on anything with an engine
 ## Websites I reccomend
-	* [Google](www.google.com) - Google is the best for searching things
-	* [YouTube](www.youtube.com) - Youtube is a great place for video entertainment
+	* [Google](www.google.com) is the best for searching things
+	* [YouTube](www.youtube.com) is a great place for video entertainment
